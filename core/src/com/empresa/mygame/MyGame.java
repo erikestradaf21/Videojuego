@@ -20,7 +20,7 @@ public class MyGame extends Game/*ApplicationAdapter*/ {
 	public void create () {// se ejecuta una vez al abrir el juego, bueno para inicializar
 		System.out.println("create");
 		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
+		img = new Texture("crash_bandicoot.png");
 	}
 
 	@Override
