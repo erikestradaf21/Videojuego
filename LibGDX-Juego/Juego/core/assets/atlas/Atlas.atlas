@@ -1,0 +1,90 @@
+
+Atlas.png
+size: 2048, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Attack1P
+  rotate: false
+  xy: 0, 1
+  size: 651, 65
+  orig: 800, 200
+  offset: 76, 72
+  index: -1
+Attack2P
+  rotate: false
+  xy: 0, 66
+  size: 683, 84
+  orig: 800, 200
+  offset: 82, 72
+  index: -1
+DeathP
+  rotate: false
+  xy: 0, 150
+  size: 1281, 56
+  orig: 1400, 200
+  offset: 81, 72
+  index: -1
+FallP
+  rotate: false
+  xy: 1091, 39
+  size: 237, 55
+  orig: 400, 200
+  offset: 83, 71
+  index: -1
+IdleP
+  rotate: false
+  xy: 683, 94
+  size: 633, 56
+  orig: 800, 200
+  offset: 81, 72
+  index: -1
+JumpP
+  rotate: false
+  xy: 1328, 59
+  size: 236, 56
+  orig: 400, 200
+  offset: 86, 72
+  index: -1
+RunP
+  rotate: false
+  xy: 0, 206
+  size: 1444, 50
+  orig: 1600, 200
+  offset: 72, 71
+  index: -1
+Take hitP
+  rotate: false
+  xy: 1444, 200
+  size: 435, 56
+  orig: 600, 200
+  offset: 79, 72
+  index: -1
+appearsE
+  rotate: false
+  xy: 1316, 115
+  size: 332, 43
+  orig: 384, 48
+  offset: 32, 2
+  index: -1
+deathE
+  rotate: false
+  xy: 1281, 158
+  size: 406, 42
+  orig: 448, 64
+  offset: 20, 2
+  index: -1
+idleE
+  rotate: false
+  xy: 683, 47
+  size: 408, 47
+  orig: 448, 80
+  offset: 20, 14
+  index: -1
+shriekE
+  rotate: false
+  xy: 651, 0
+  size: 224, 47
+  orig: 256, 80
+  offset: 20, 19
+  index: -1

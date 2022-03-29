@@ -1,0 +1,197 @@
+2022-02-19 23:08:50,684 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-19 23:23:07,800 [Worker-0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-02-20 01:36:06,200 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-20 02:16:41,054 [Worker-9] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-02-20 13:41:42,086 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-20 17:47:36,649 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-20 23:33:12,089 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-02-20 23:54:45,168 [Worker-13] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-02-21 14:16:11,282 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-21 14:32:56,711 [Worker-9] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-02-21 15:43:11,496 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-21 15:49:40,504 [Worker-8] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-02-21 19:41:58,230 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-21 20:14:18,402 [Worker-15] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-02-21 22:58:41,027 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-21 23:03:05,080 [Worker-9] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-02-22 00:07:06,152 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-22 00:08:08,907 [Worker-13] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-02-22 01:58:01,788 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-22 08:28:27,380 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-22 10:13:43,692 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-22 10:42:01,605 [Worker-8] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-02-22 13:29:39,221 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-22 14:26:09,240 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-03-28 22:47:31,095 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-03-28 22:58:21,773 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

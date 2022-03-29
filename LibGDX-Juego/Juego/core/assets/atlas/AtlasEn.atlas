@@ -1,0 +1,34 @@
+
+AtlasEn.png
+size: 2048, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+appears
+  rotate: false
+  xy: 0, 0
+  size: 332, 48
+  orig: 384, 48
+  offset: 32, 0
+  index: -1
+death
+  rotate: false
+  xy: 408, 64
+  size: 406, 64
+  orig: 448, 64
+  offset: 20, 0
+  index: -1
+idle
+  rotate: false
+  xy: 0, 48
+  size: 408, 80
+  orig: 448, 80
+  offset: 20, 0
+  index: -1
+shriek
+  rotate: false
+  xy: 814, 48
+  size: 224, 80
+  orig: 256, 80
+  offset: 20, 0
+  index: -1

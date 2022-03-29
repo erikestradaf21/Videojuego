@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.EventListener"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.Shape"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.utils.Array"/>
+<fullyQualifiedTypeName name="com.ee.firearms.elementos.Character"/>
+<fullyQualifiedTypeName name="com.ee.firearms.utiles.Config"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.maps.tiled.TiledMap"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.audio.Sound"/>
+<fullyQualifiedTypeName name="com.ee.firearms.GameAssetManager"/>
+<fullyQualifiedTypeName name="com.ee.firearms.utiles.Utiles"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.utils.XmlReader.Element"/>
+</qualifiedTypeNameHistroy>

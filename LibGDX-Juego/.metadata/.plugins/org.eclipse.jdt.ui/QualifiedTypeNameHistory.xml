@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.ee.firearms.utiles.Config"/>
+<fullyQualifiedTypeName name="com.ee.firearms.entidades.Character"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.audio.Sound"/>
+<fullyQualifiedTypeName name="com.ee.firearms.pantallas.MenuScreen"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.ui.ImageButton"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.ui.Skin"/>
+<fullyQualifiedTypeName name="com.ee.firearms.SkinManager"/>
+<fullyQualifiedTypeName name="com.ee.firearms.GameAssetManager"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Color"/>
+</qualifiedTypeNameHistroy>
